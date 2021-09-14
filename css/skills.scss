@@ -1,0 +1,109 @@
+// section
+.skills{
+
+    background-color: $blackone;
+    padding-top: 9.5em;
+    padding-bottom: 13.5em;
+}
+
+
+// skill texte
+
+.skillText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillText h2 {
+    padding-bottom: 1em;
+    @extend %fontInter;
+    font-weight: 600;
+    font-size: 2.25em;
+    line-height: 2.5em;
+}
+
+.span2{
+    padding-bottom: 0.5em;
+    border-bottom: $orange solid 3px
+}
+.skillText p {
+
+    width: 18%;
+    text-align: center;
+    @extend %fontInter;
+    font-size: 0.87em;
+    margin-bottom: 7.25em;
+}
+
+//skills
+
+.skill {
+
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.skil{
+    width:16.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill h5{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    @extend %fontInter;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.skil p{
+
+    @extend %fontInter;
+    font-size: 0.87em;
+    color: #767E90
+}
+
+@media screen and (max-width: 768px) {
+
+    .skills {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .skillText {
+        align-items: flex-start;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .span2 {
+        border: none;
+    }
+
+    .span1 {
+        padding-bottom: 0.5em;
+        border-bottom: $orange solid 3px
+    }
+
+    .skillText p {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 2.5rem ;
+    }
+
+    .skill {
+        flex-direction: column;
+        width: 80%;
+    }
+    .skil {
+        width: 100%;
+        margin-top: 2em;
+    }
+}

@@ -1,0 +1,115 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $blackone;
+    padding-bottom: 12rem ;
+    padding-top: 9rem;
+}
+
+.testimonials h2 {
+    @extend %fontInter;
+    font-size: 2.3em;
+    font-weight: 600;
+    line-height: 3.75rem;
+    padding-bottom: 5rem;
+}
+
+.testimonials .span2{
+    padding-bottom: 0.4em;
+    border-bottom: $orange solid 3px;
+}
+
+.testimonial{
+
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+
+.testimonial img {
+    width: 7.5em;
+    height: 7.5em;
+    border-radius: 60px;
+    border-top-right-radius: 25px;
+    margin-right: 2%;
+}
+
+.testimonial .text {
+    width: 100%;
+    text-align: left;
+    @extend %fontInter;
+    font-style: italic;
+    font-size: 1.33rem;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+.testimonialP{
+    width: 44%;
+    text-align: left;
+}
+
+.testimonialP .span{
+
+    border-bottom: $orange solid 3px;
+    padding-bottom: 0.5em;
+}
+
+.name{
+
+    @extend %fontInter;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.6em;
+    padding-bottom: 0em;
+}
+
+.job{
+    @extend %fontInter;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+@media screen and ( max-width: 768px) {
+    
+    .testimonials {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5rem;
+        text-align: left;
+        padding-bottom: 5rem;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    .testimonial img {
+
+        display: none;
+    }
+
+    .testimonialP {
+        width: 100%;
+    }
+
+    .testimonialP span {
+        border: none;
+    }
+
+    .span2 {
+        border: none !important;
+    }
+
+    .span1{
+        padding-bottom: 0.4em;
+        border-bottom: $orange solid 3px;
+    }
+}

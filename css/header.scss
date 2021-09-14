@@ -1,0 +1,124 @@
+//css header
+
+header{
+
+    display: flex;
+}
+
+// on flex les éléments dans textes on les alignes au centre
+.nav{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    padding: 1.4em;
+    padding-left: 4em;
+}
+
+.nav h2 {
+    font-size: 2em;
+    @extend %fontRoboto;
+}
+
+.navInfo{
+    display: flex;
+    width: 25%;
+    margin-left: 4%;
+    justify-content: center;
+    @extend %fontInter;
+}
+
+
+.nav img{
+    
+    margin-right: 3%;
+}
+
+.burger {
+
+    display: flex;
+    justify-content: start;
+    width: 5%;
+    color: #888888;
+    
+}
+
+.burger div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5%;
+    cursor: pointer;
+    width: 30%
+}
+
+hr {
+    margin-top: 0.7rem;
+}
+
+.headerVector{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10%;
+    padding-top: 0.5em;
+}
+
+.divVector{
+    display: flex;
+}
+
+.vector{
+    
+    width: 3.72px;
+    height: 3.72px;
+    border-radius: 50%;
+    background: #A2BADD;
+    margin-left: 8.9px ;
+    margin-top: 8.55px;
+   
+}
+
+.headerBotVector {
+    margin-left: 13px;
+}
+
+@media screen and (max-width: 768px){
+
+    header {
+
+        justify-content: space-between;
+    }
+    .navInfo{
+        display: none;
+    }
+
+    .nav{
+        padding-left: 2em;
+    }
+
+    .headerVector{
+        display: none;
+    }
+
+    .burger {
+        justify-content: end;
+        width: 30%;
+        padding: 1em;
+    }
+    
+    .burger div{
+        background-color: $orange;
+        border-radius: 50%;
+        padding-left: 12px;
+        padding-bottom: 5px;
+        padding-right: 12px;
+        align-items: center;    
+    }
+
+    hr {
+        margin-top: 0.4em;
+        color: white;
+        width: 60%;
+    }
+}
