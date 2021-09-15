@@ -93,7 +93,19 @@ h1 span {
 
 .photo img{
 
-    width: 100%
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.photo svg {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.presentation > svg {
+    display: none;
 }
 
 // Clients 
@@ -116,6 +128,7 @@ h1 span {
     width: 60%;
     justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 4.5rem;
 }
 
 .sega{
@@ -148,9 +161,16 @@ h1 span {
     margin-left: 5%;
 }
 
+.clients svg {
+    position: absolute;
+    left: 0px;
+    top: 800px;
+}
+
+
 @media screen and (max-width: 768px){
 
-    .photo {
+    .photo{
         display: none;
     }
     
@@ -158,6 +178,13 @@ h1 span {
         width: 100%;
         align-items: center;
     }
+
+    .presentation > svg {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }    
 
     .text {
         width: 90%;

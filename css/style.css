@@ -64,21 +64,10 @@ hr {
   flex-direction: column;
   align-items: flex-end;
   margin-right: 10%;
-  padding-top: 0.5em; }
-
-.divVector {
-  display: flex; }
-
-.vector {
-  width: 3.72px;
-  height: 3.72px;
-  border-radius: 50%;
-  background: #A2BADD;
-  margin-left: 8.9px;
-  margin-top: 8.55px; }
+  padding-top: 0.5rem; }
 
 .headerBotVector {
-  margin-left: 13px; }
+  margin-left: 0.6em; }
 
 @media screen and (max-width: 768px) {
   header {
@@ -170,7 +159,17 @@ h1 span {
   margin-bottom: 13.4em; }
 
 .photo img {
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  z-index: 1; }
+
+.photo svg {
+  position: absolute;
+  right: 0px;
+  top: 0px; }
+
+.presentation > svg {
+  display: none; }
 
 .clients {
   width: 100%;
@@ -186,7 +185,8 @@ h1 span {
   display: flex;
   width: 60%;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 4.5rem; }
 
 .sega {
   width: 10%;
@@ -212,12 +212,22 @@ h1 span {
   width: 15%;
   margin-left: 5%; }
 
+.clients svg {
+  position: absolute;
+  left: 0px;
+  top: 800px; }
+
 @media screen and (max-width: 768px) {
   .photo {
     display: none; }
   .presentationText {
     width: 100%;
     align-items: center; }
+  .presentation > svg {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px; }
   .text {
     width: 90%;
     margin-left: auto;
@@ -264,7 +274,9 @@ h1 span {
 .skills {
   background-color: #202020;
   padding-top: 9.5em;
-  padding-bottom: 13.5em; }
+  padding-bottom: 13.5em;
+  z-index: 1;
+  position: relative; }
 
 .skillText {
   display: flex;
