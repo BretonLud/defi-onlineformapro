@@ -335,7 +335,9 @@ h1 span {
     margin-bottom: 2.5rem; }
   .skill {
     flex-direction: column;
-    width: 80%; }
+    width: 80%;
+    padding-left: 0;
+    padding-top: 0; }
   .skil {
     width: 100%;
     margin-top: 2em; } }
