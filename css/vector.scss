@@ -151,5 +151,20 @@
         position: absolute;
         right: 0px;
         top: 0px;
-    }    
+    }
+
+    .presentationText > svg {
+
+        display: none;
+    }
+    
+    .svg13, .svg14, .svg15, .svg16, .svg17, .svg18, .svg19{
+
+        display: none;
+    }
+
+    .svg10 {
+        left:60px;
+        top: 375px;
+    }
 }

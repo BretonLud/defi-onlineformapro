@@ -72,7 +72,7 @@
     font-size: 1.125em;
     font-weight: bold;
     line-height: 1.6em;
-    padding-bottom: 0em;
+    padding-bottom: 0.2em;
     padding-left: 2.5rem;
 }
 
@@ -89,9 +89,15 @@
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 5rem;
+        padding-top: 0;
         text-align: left;
-        padding-bottom: 5rem;
+        padding-bottom: 0;
+    }
+
+    .testimonials h2 {
+        padding-left: 0;
+        margin-top: 0;
+        padding-bottom: 3rem;
     }
 
     .testimonial {
@@ -118,5 +124,17 @@
     .span1{
         padding-bottom: 0.4em;
         border-bottom: $orange solid 3px;
+    }
+
+    .testimonial .text{
+        padding-left: 0;
+    }
+
+    .name{
+        padding-left: 0;
+    }
+
+    .job{
+        padding-left: 0;
     }
 }

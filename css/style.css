@@ -255,7 +255,9 @@ h1 span {
   h1 {
     width: 100%; }
   .developpement {
-    width: 100%; } }
+    width: 100%; }
+  .developpement p {
+    padding-right: 20px; } }
 
 .skills {
   background-color: #202020;
@@ -315,7 +317,7 @@ h1 span {
 
 @media screen and (max-width: 768px) {
   .skills {
-    padding-top: 5rem;
+    padding-top: 0;
     padding-bottom: 5rem; }
   .skillText {
     align-items: flex-start;
@@ -656,7 +658,7 @@ h1 span {
   font-size: 1.125em;
   font-weight: bold;
   line-height: 1.6em;
-  padding-bottom: 0em;
+  padding-bottom: 0.2em;
   padding-left: 2.5rem; }
 
 .job {
@@ -669,9 +671,13 @@ h1 span {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5rem;
+    padding-top: 0;
     text-align: left;
-    padding-bottom: 5rem; }
+    padding-bottom: 0; }
+  .testimonials h2 {
+    padding-left: 0;
+    margin-top: 0;
+    padding-bottom: 3rem; }
   .testimonial {
     width: 100%; }
   .testimonial img {
@@ -684,7 +690,13 @@ h1 span {
     border: none !important; }
   .span1 {
     padding-bottom: 0.4em;
-    border-bottom: #F87F28 solid 3px; } }
+    border-bottom: #F87F28 solid 3px; }
+  .testimonial .text {
+    padding-left: 0; }
+  .name {
+    padding-left: 0; }
+  .job {
+    padding-left: 0; } }
 
 .news {
   display: flex;
@@ -739,8 +751,10 @@ h1 span {
   .new {
     width: 100%;
     text-align: left;
-    padding-bottom: 2rem; }
+    padding-bottom: 2rem;
+    padding-top: 4rem; }
   .newsy {
+    padding-top: 2rem;
     width: 100%; }
   .newsy h3 {
     padding-top: 1rem;
@@ -887,13 +901,13 @@ h1 span {
 
 @media screen and (max-width: 768px) {
   .contacts {
-    padding-top: 0;
-    padding-bottom: 2rem; }
+    padding-bottom: 5rem; }
+  .contact {
+    width: 100%;
+    padding-top: 0; }
   .formContact {
     width: 80%;
     flex-direction: column; }
-  .contact {
-    width: 100%; }
   .info {
     width: 100%; }
   .info p {
@@ -901,7 +915,9 @@ h1 span {
   .info h6 {
     font-size: 1rem; }
   .form {
-    width: 100%; }
+    width: 100%;
+    padding-top: 0;
+    padding-left: 0; }
   .form p {
     width: 93%; }
   .formTop {
@@ -1026,7 +1042,14 @@ h1 span {
     display: block;
     position: absolute;
     right: 0px;
-    top: 0px; } }
+    top: 0px; }
+  .presentationText > svg {
+    display: none; }
+  .svg13, .svg14, .svg15, .svg16, .svg17, .svg18, .svg19 {
+    display: none; }
+  .svg10 {
+    left: 60px;
+    top: 375px; } }
 
 * {
   margin: 0;

@@ -172,19 +172,18 @@
 
 @media screen and (max-width: 768px) {
 
-
     .contacts {
+        padding-bottom: 5rem;
+    }
+
+    .contact {
+        width: 100%;
         padding-top: 0;
-        padding-bottom: 2rem;
     }
 
     .formContact {
         width: 80%;
         flex-direction: column;
-    }
-
-    .contact{
-        width: 100%
     }
 
     .info {
@@ -200,6 +199,8 @@
 
     .form {
         width: 100%;
+        padding-top: 0;
+        padding-left: 0;
     }
 
     .form p {
