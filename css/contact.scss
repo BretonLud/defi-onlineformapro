@@ -1,7 +1,6 @@
 .contacts {
     
     background-color: $blackone;
-    padding-top: 12rem;
     padding-bottom: 11rem;
     
 }
@@ -17,7 +16,7 @@
 .contact {
     width: 30%;
     margin-right: 10rem;
-    padding-top: 2rem;
+    padding-top: 14rem;
 
 }
 
@@ -61,6 +60,8 @@
 
 .form {
     width: 40%;
+    padding-top: 12rem;
+    padding-left: 0.6rem;
 }
 
 .form h6{
@@ -75,9 +76,12 @@
     @extend %fontInter;
     font-weight: 500;
     font-size: 1.5rem;
-    line-height: 2rem;
-    padding-bottom: 0.75rem;
+    line-height: 2rem;   
     color: #BFBFBF;
+}
+
+.form .h2{
+    padding-bottom: 1rem
 }
 
 .form p{
@@ -85,7 +89,7 @@
     @extend %fontInter;
     font-size: 0.87rem;
     line-height: 1.5rem;
-    padding-bottom: 1.12rem;
+    padding-bottom: 1.6rem;
 }
 
 .form .button{
@@ -111,7 +115,7 @@
 	display: block;
 	padding: 9px;
 	border:1px solid #DDDDDD;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	border-radius: 4px;
 }
 

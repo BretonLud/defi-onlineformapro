@@ -1,0 +1,155 @@
+//presentation vector 
+
+.presentationText > svg {
+    position: absolute;
+    left: 200px;
+    top: 0px
+}
+
+.photo .svg {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.photo .svg1 {
+
+    position: absolute;
+    right:225px;
+    top: 500px;
+}
+
+.photo .svg2 {
+    position: absolute;
+    left: 750px;
+    top: 575px
+}
+
+.photo .svg3{
+
+    position: absolute;
+    right: 500px;
+    top: 680px;
+}
+
+.photo .svg4 {
+    position: absolute;
+    right: 790px;
+    top: 660px
+}
+
+.photo .svg5 {
+    position: absolute;
+    left: 200px;
+    top: 260px;
+
+}
+
+.photo .svg6 {
+    position: absolute;
+    right: 811px;
+    top: 890px;
+}
+
+.presentation > svg {
+    display: none;
+}
+
+.clients svg {
+    position: absolute;
+    left: 0px;
+    top: 800px;
+}
+
+.svg7 {
+    position: absolute;
+    top: 50px;
+    right: 260px;
+}
+
+.svg8 {
+    position: absolute;
+    top:150px;
+    right: 825px;
+}
+
+.svg9 {
+    position: absolute;
+    top: 100px;
+    left: 570px;
+}
+
+.svg10 {
+    position: absolute;
+    top: 290px;
+    left: 350px;
+}
+
+.svg11{
+    position: absolute;
+    top: 470px;
+    left: 473px
+}
+
+.svg12{
+    position: absolute;
+    top: 765px;
+    right: 465px;
+}
+
+.svg13{
+    position: absolute;
+    left: 0px;
+    top: 50px
+}
+
+.svg14 {
+    position: absolute;
+    left: 0px;
+}
+
+.svg15 {
+    position: absolute;
+    left: 0.5rem;
+    margin-top: 2rem;
+}
+
+.svg16{
+    position: absolute;
+    left: 550px;
+    top: 4805px
+}
+
+.svg16 > svg {
+    position: relative;
+    z-index: 1;
+}
+
+.svg17{
+    position: absolute;
+    right: 0px;
+}
+
+.svg18{
+    position: absolute;
+    left: 300px;
+}
+
+.svg19{
+    position: absolute;
+}
+
+@media screen and (max-width: 768px){
+
+    .clients svg {
+
+        display: none;
+    }
+    
+    .presentation > svg {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }    
+}

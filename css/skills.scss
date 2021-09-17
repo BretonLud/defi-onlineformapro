@@ -3,7 +3,7 @@
 
     background-color: $blackone;
     padding-top: 9.5em;
-    padding-bottom: 13.5em;
+    padding-bottom: 13em;
     z-index: 1;
     position: relative;
 }
@@ -23,6 +23,7 @@
     font-weight: 600;
     font-size: 2.25em;
     line-height: 2.5em;
+    padding-right: 3rem;
 }
 
 .span2{
@@ -36,6 +37,7 @@
     @extend %fontInter;
     font-size: 0.87em;
     margin-bottom: 7.25em;
+    padding-right: 3rem;
 }
 
 //skills
@@ -47,6 +49,9 @@
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
+    padding-top: 2.2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 
 .skil{

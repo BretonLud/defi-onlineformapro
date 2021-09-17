@@ -19,6 +19,7 @@
     align-items: flex-end;
 }
 
+
 .text{
     width: 65%;
 }
@@ -40,11 +41,12 @@
 h1 {
     margin-top: 2%;
     @extend %fontInter;
-    font-size: 4em;
+    font-size: 4.5rem;
     line-height: 5rem;
     font-weight: normal;
     letter-spacing: -3px;
-    width: 80%;
+    width: 90%;
+    padding-bottom: 1.5rem;
 }
 
 h1 span {
@@ -98,15 +100,7 @@ h1 span {
     z-index: 1;
 }
 
-.photo svg {
-    position: absolute;
-    right: 0px;
-    top: 0px;
-}
 
-.presentation > svg {
-    display: none;
-}
 
 // Clients 
 
@@ -161,11 +155,7 @@ h1 span {
     margin-left: 5%;
 }
 
-.clients svg {
-    position: absolute;
-    left: 0px;
-    top: 800px;
-}
+
 
 
 @media screen and (max-width: 768px){
@@ -179,12 +169,7 @@ h1 span {
         align-items: center;
     }
 
-    .presentation > svg {
-        display: block;
-        position: absolute;
-        right: 0px;
-        top: 0px;
-    }    
+    
 
     .text {
         width: 90%;
@@ -209,6 +194,8 @@ h1 span {
         margin-left: auto;
         margin-right: auto;
     }
+
+   
 
     .logo {
         margin-top: 2.8rem;
