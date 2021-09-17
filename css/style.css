@@ -861,8 +861,12 @@ h1 span {
   padding: 9px;
   border: 1px solid #828282;
   margin-bottom: 15px;
-  border-radius: 4px;
-  box-sizing: border-box; }
+  border-radius: 4px; }
+
+.formli {
+  padding: 0 !important;
+  border: none !important;
+  margin-bottom: 0 !important; }
 
 .form-style-7 li > label {
   display: block;

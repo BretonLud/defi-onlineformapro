@@ -2237,16 +2237,18 @@
                 </p>
                 <form class="form-style-7">
                     <ul>
-                        <ul class="formTop">
-                            <li>
-                                <label for="name">Votre nom</label>
-                                <input type="text" name="name" maxlength="100" id="name">                               
-                           </li>
-                            <li>
-                                <label for="email">Votre email</label>
-                                <input type="email" name="email" maxlength="100" id="email">                               
+                        <li class="formli">
+                            <ul class="formTop">
+                                <li>
+                                    <label for="name">Votre nom</label>
+                                    <input type="text" name="name" maxlength="100" id="name">                               
                             </li>
-                        </ul>
+                                <li>
+                                    <label for="email">Votre email</label>
+                                    <input type="email" name="email" maxlength="100" id="email">                               
+                                </li>
+                            </ul>
+                        </li>
                         <li class="message">
                             <label for="bio">Message</label>
                             <textarea name="bio" onkeyup="adjust_textarea()" id="bio"></textarea>                            
