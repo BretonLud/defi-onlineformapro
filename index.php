@@ -2237,7 +2237,7 @@
                 </p>
                 <form class="form-style-7">
                     <ul>
-                        <div class="formTop">
+                        <ul class="formTop">
                             <li>
                                 <label for="name">Votre nom</label>
                                 <input type="text" name="name" maxlength="100" id="name">                               
@@ -2246,7 +2246,7 @@
                                 <label for="email">Votre email</label>
                                 <input type="email" name="email" maxlength="100" id="email">                               
                             </li>
-                        </div>
+                        </ul>
                         <li class="message">
                             <label for="bio">Message</label>
                             <textarea name="bio" onkeyup="adjust_textarea()" id="bio"></textarea>                            

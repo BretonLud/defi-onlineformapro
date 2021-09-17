@@ -269,7 +269,8 @@ h1 span {
 .skillText {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
 
 .skillText h2 {
   padding-bottom: 1em;
@@ -297,7 +298,8 @@ h1 span {
   justify-content: space-between;
   padding-top: 2.2rem;
   padding-left: 2rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  position: relative; }
 
 .skil {
   width: 16.5%;
@@ -628,7 +630,8 @@ h1 span {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
 
 .testimonial img {
   width: 7.5em;
@@ -708,7 +711,8 @@ h1 span {
 .new {
   width: 28%;
   text-align: right;
-  padding-top: 8rem; }
+  padding-top: 8rem;
+  position: relative; }
 
 .news h2 {
   font-weight: 600;
@@ -721,7 +725,8 @@ h1 span {
 
 .newsy {
   width: 60%;
-  padding-top: 9rem; }
+  padding-top: 9rem;
+  position: relative; }
 
 .newsy h6 {
   color: #F87F28;
@@ -779,7 +784,8 @@ h1 span {
 .contact {
   width: 30%;
   margin-right: 10rem;
-  padding-top: 14rem; }
+  padding-top: 14rem;
+  position: relative; }
 
 .contact h2 {
   font-weight: 600;
@@ -853,9 +859,10 @@ h1 span {
 .form-style-7 li {
   display: block;
   padding: 9px;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #828282;
   margin-bottom: 15px;
-  border-radius: 4px; }
+  border-radius: 4px;
+  box-sizing: border-box; }
 
 .form-style-7 li > label {
   display: block;
@@ -895,7 +902,7 @@ h1 span {
   font-size: 16px;
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #202020;
+  background-color: rgba(0, 0, 0, 0);
   color: white; }
 
 .form-style-7 textarea {
