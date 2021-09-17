@@ -812,7 +812,8 @@ h1 span {
 .form {
   width: 40%;
   padding-top: 12rem;
-  padding-left: 0.6rem; }
+  padding-left: 0.6rem;
+  position: relative; }
 
 .form h6 {
   font-size: 0.75rem;
