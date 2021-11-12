@@ -375,12 +375,12 @@
                 <p>CLIENTS</p>
             </div>
             <div class='logo'>
-                <img class="sega" src="./css/images/sega.png" alt="logo Sega">
-                <img class="ubi" src="./css/images/ubi.png" alt="logo UbiSoft">
-                <img class="microsoft" src="./css/images/microsoft.webp" alt="logo Microsoft">
-                <img class="ea" src="./css/images/ea.png" alt="logo EA">
-                <img class="capcom" src="./css/images/capcom.webp" alt="logo Capcom">
-                <img class="bethesda" src="./css/images/bethesda.png" alt="logo Bethesda">
+                <img class="sega" src="./css/images/sega.png" width="91" height="31" alt="logo Sega">
+                <img class="ubi" src="./css/images/ubi.png" width="73" height="67" alt="logo UbiSoft">
+                <img class="microsoft" src="./css/images/microsoft.webp" width="182" height="82" alt="logo Microsoft">
+                <img class="ea" src="./css/images/ea.png" width="182" height="103" alt="logo EA">
+                <img class="capcom" src="./css/images/capcom.webp" width="136" height="25" alt="logo Capcom">
+                <img class="bethesda" src="./css/images/bethesda.png" width="136" height="21" alt="logo Bethesda">
             </div>
             <svg width="374" height="801" viewBox="0 0 374 801" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M52.1621 801C35.1638 801 17.6137 800.398 0 799.21V0C25.0789 14.1498 50.9785 31.967 76.981 52.9577C103.347 74.3467 128.59 97.6616 152.567 122.77C177.295 148.596 200.773 176.095 222.883 205.134C244.786 233.828 265.214 264.091 284.056 295.755C302.013 325.828 318.108 357.438 332.212 390.331C338.984 406.295 345.036 422.252 350.197 437.758C355.319 453.063 359.751 468.687 363.475 484.562C366.991 499.55 369.692 514.796 371.562 530.203C373.325 544.753 374.131 559.446 373.973 574.147C373.813 588.159 372.558 602.123 370.223 615.854C369.066 622.556 367.619 629.18 365.888 635.701C364.16 642.191 362.138 648.563 359.83 654.788C357.362 661.425 354.53 667.859 351.352 674.047C348.179 680.211 344.683 686.128 340.885 691.762C337.042 697.453 332.922 702.867 328.548 707.976C324.075 713.193 319.372 718.118 314.459 722.731C309.55 727.348 304.26 731.836 298.739 736.066C293.312 740.224 287.514 744.248 281.505 748.025C269.072 755.762 256.197 762.43 242.976 767.978C228.835 773.918 214.429 778.906 199.824 782.92C185.088 787.015 169.335 790.468 153.003 793.182C121.809 798.371 87.8821 800.999 52.1621 801Z" fill="#1E5DE9" fill-opacity="0.07"/>
@@ -661,7 +661,7 @@
             
             <div class=" skil">
                 <div>
-                    <img src="./css/images/technic.svg" alt="logo scanner">
+                    <img src="./css/images/technic.svg" width="52" height="52" alt="logo scanner">
                 </div>
                 <div>
                     <h5>Technique</h5>
@@ -675,7 +675,7 @@
             </div>
             <div class=" skil">
                 <div>
-                    <img src="./css/images/project.svg" alt="logo crayon">
+                    <img src="./css/images/project.svg" width="52" height="52" alt="logo crayon">
                 </div>
                 <div>
                     <h5>Gestion de projet</h5>
@@ -689,7 +689,7 @@
             </div>
             <div class=" skil">
                 <div>
-                    <img src="./css/images/management.svg" alt="logo étoile filante">
+                    <img src="./css/images/management.svg" width="52" height="52" alt="logo étoile filante">
                 </div>
                 <div>
                     <h5>Management</h5>
@@ -703,7 +703,7 @@
             </div>
             <div class=" skil">
                 <div>
-                    <img src="./css/images/languages.svg" alt="logo radar">
+                    <img src="./css/images/languages.svg" width="52" height="52" alt="logo radar">
                 </div>
                 <div>
                     <h5>Langues</h5>
@@ -1159,7 +1159,7 @@
                 <div class="inExpJob">
                     <div class="expDate">
                         <div>
-                            <img src="./css/images/aujourd'hui.png" alt="aujourd'hui">
+                            <img src="./css/images/aujourd'hui.png" width="24" height="24" alt="aujourd'hui">
                         </div>
                         <div class="expNow">
                             <h6>AUJOURD'HUI</h6>
@@ -1177,7 +1177,7 @@
                 <div class="inExpJob">
                     <div class="expDate">
                         <div>
-                            <img src="./css/images/ba.png" alt="ba">
+                            <img src="./css/images/ba.png" width="24" height="24" alt="ba">
                         </div>
                         <div class="expNow">
                             <h6>MAI 2010 - AVRIL 2021</h6>
@@ -1194,7 +1194,7 @@
                 <div class="inExpJob">
                     <div class="expDate">
                         <div>
-                            <img src="./css/images/window.png" alt="window">
+                            <img src="./css/images/window.png" width="24" height="24" alt="window">
                         </div>
                         <div class="expNow">
                             <h6>SEPT 2008 - MAI 2009</h6>
