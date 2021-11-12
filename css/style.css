@@ -862,6 +862,10 @@ h1 span {
   margin-bottom: 15px;
   border-radius: 4px; }
 
+.form-style-7 .form--lastChild {
+  border: none;
+  padding: 0; }
+
 .formli {
   padding: 0 !important;
   border: none !important;
