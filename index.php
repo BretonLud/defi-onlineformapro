@@ -376,9 +376,9 @@
             </div>
             <div class='logo'>
                 <img class="sega" src="./css/images/sega.png" alt="logo Sega">
-                <img class="ubi"src="./css/images/ubi.png" alt="logo UbiSoft">
+                <img class="ubi" src="./css/images/ubi.png" alt="logo UbiSoft">
                 <img class="microsoft" src="./css/images/microsoft.webp" alt="logo Microsoft">
-                <img class="ea"src="./css/images/ea.png" alt="logo EA">
+                <img class="ea" src="./css/images/ea.png" alt="logo EA">
                 <img class="capcom" src="./css/images/capcom.webp" alt="logo Capcom">
                 <img class="bethesda" src="./css/images/bethesda.png" alt="logo Bethesda">
             </div>
@@ -1836,8 +1836,8 @@
                 <div>
                     <h6>18 OCTOBRE 2013</h6>
                     <h3>Atoms For Peace - Before Your Very Eyes</h3>
-                    <p>Vous trouverez ici le making-of:</br>
-                    http://www.youtube.com/watch?v=mfWNvhgHV3A</p>
+                    <p>Vous trouverez ici le making-of:</p>
+                    <p>http://www.youtube.com/watch?v=mfWNvhgHV3A</p>
                 </div>
             </div>
     </section>

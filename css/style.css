@@ -4,7 +4,7 @@
 .nav h2, .fullStack, .buttonPortfolio, .clients, .expJob h6, .newsy h6, .form h6 {
   font-family: 'Roboto', sans-serif; }
 
-.navInfo, h1, .developpement, .directeur, .skillText h2, .skillText p, .skill h5, .skil p, .portfolioText h2, .portfolioText p, .expText h2, .expText p, .expTextJob, .expJob h3, .inSkillbar p, .percentage p, .competenceText h2, .competenceText p, .testimonials h2, .testimonial .text, .name, .job, .news h2, .newsy h3, .newsy p, .contact h2, .info p, .info h6, .form h2, .form p, .form-style-7 li > label {
+.navInfo, h1, .developpement, .directeur, .skillText h2, .skillText p, .skill h5, .skil p, .portfolioText h2, .portfolioText p, .expText h2, .expText p, .expTextJob, .expJob h3, .inSkillbar p, .percentage p, .competenceText h2, .competenceText p, .testimonials h2, .testimonial .text, .name, .job, .news h2, .newsy h3, .newsy div, .contact h2, .info p, .info h6, .form h2, .form p, .form-style-7 li > label {
   font-family: 'Inter', sans-serif; }
 
 .buttonPortfolio, .button {
@@ -705,7 +705,7 @@ h1 span {
 .news {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 6.6rem; }
+  padding-bottom: 4.1rem; }
 
 .new {
   width: 28%;
@@ -740,7 +740,7 @@ h1 span {
   line-height: 2em;
   padding-bottom: 0.2rem; }
 
-.newsy p {
+.newsy div {
   font-size: 0.87rem;
   line-height: 1.5rem;
   padding-bottom: 2.5rem;
