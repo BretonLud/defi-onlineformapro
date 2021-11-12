@@ -395,7 +395,7 @@
 
     <section class="skills">
         <div class="svg13">
-            <svg width="1900" height="880" viewBox="0 0 1900 862" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100%" height="880" viewBox="0 0 1900 862" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1710.59 800.541H1723.99" stroke="#A2BADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M1717.29 793.843V807.244" stroke="#A2BADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M1710.59 771.569H1723.99" stroke="#A2BADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -560,7 +560,7 @@
             </svg>
         </div>
         <div class="svg17">
-            <svg width="1800"  height="862" viewBox="0 0 1838 862" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100%"  height="862" viewBox="0 0 1838 862" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1782.14 261.444C1783.27 261.444 1784.18 260.53 1784.18 259.401C1784.18 258.273 1783.27 257.358 1782.14 257.358C1781.01 257.358 1780.1 258.273 1780.1 259.401C1780.1 260.53 1781.01 261.444 1782.14 261.444Z" fill="#4181E0" fill-opacity="0.34"/>
                 <path d="M1808.79 261.444C1809.92 261.444 1810.83 260.53 1810.83 259.401C1810.83 258.273 1809.92 257.358 1808.79 257.358C1807.66 257.358 1806.74 258.273 1806.74 259.401C1806.74 260.53 1807.66 261.444 1808.79 261.444Z" fill="#4181E0" fill-opacity="0.34"/>
                 <path d="M1835.44 261.444C1836.57 261.444 1837.48 260.53 1837.48 259.401C1837.48 258.273 1836.57 257.358 1835.44 257.358C1834.31 257.358 1833.39 258.273 1833.39 259.401C1833.39 260.53 1834.31 261.444 1835.44 261.444Z" fill="#4181E0" fill-opacity="0.34"/>
@@ -724,7 +724,7 @@
     
         <div class="portfolio">
         <div class="svg14">
-                <svg width="1838" height="918" viewBox="0 0 1860 918" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="100%" height="918" viewBox="0 0 1860 918" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.19">
                     <path opacity="0.19" d="M352.387 29.2297C351.86 28.8024 351.328 28.3871 350.79 27.9844L261.539 117.236C261.945 117.77 262.362 118.302 262.786 118.832L352.387 29.2297Z" fill="#4181E0"/>
                     <path opacity="0.19" d="M330.584 17.7705C329.842 17.5509 329.099 17.3497 328.353 17.1582L250.714 94.7979C250.906 95.5452 251.108 96.2894 251.327 97.0286L330.584 17.7705Z" fill="#4181E0"/>
@@ -1299,7 +1299,7 @@
 
     <section class="testimonials">
         <div class="svg15">
-            <svg width="1780" height="652" viewBox="0 0 1350 652" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100%" height="652" viewBox="0 0 1350 652" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1256.42 605.271H1266.25" stroke="#A2BADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M1261.33 600.206V610.338" stroke="#A2BADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M1256.42 583.365H1266.25" stroke="#A2BADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1580,7 +1580,7 @@
 
     <section class="news">
         <div class="svg18">
-            <svg width="1900" height="693" viewBox="0 0 1900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100%" height="647"  fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1256.42 641.243H1266.25" stroke="#A2BADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M1261.33 635.876V646.613" stroke="#A2BADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M1256.42 618.03H1266.25" stroke="#A2BADD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1846,7 +1846,7 @@
 
     <section class="contacts">
         <div class="svg19">
-            <svg width="1900" height="773" viewBox="0 0 1841 773" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100%" height="773px"  fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.19">
                 <path opacity="0.19" d="M340.538 -86.2794C340.029 -86.6926 339.515 -87.094 338.995 -87.4834L252.757 -1.19671C253.15 -0.680519 253.552 -0.166283 253.963 0.345993L340.538 -86.2794Z" fill="#4181E0"/>
                 <path opacity="0.19" d="M345.458 -81.8554C345.226 -82.0879 344.994 -82.3095 344.761 -82.5342L257.703 4.5742C257.929 4.80688 258.152 5.03955 258.381 5.27125C258.611 5.50392 258.846 5.72585 259.079 5.95071L346.136 -81.1582C345.91 -81.3905 345.686 -81.6277 345.458 -81.8554Z" fill="#4181E0"/>
