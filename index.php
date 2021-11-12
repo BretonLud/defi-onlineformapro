@@ -7,7 +7,8 @@
     <meta name="description" content="Voici le réslutat de mon défi pour OnlineFormaPro">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;
+    900&display=swap">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Defi OnlineFormaPro</title>
 </head>
